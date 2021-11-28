@@ -28,7 +28,7 @@ fun MainApp(
         composable(Screen.Home.route) { _ ->
             val viewModel = hiltViewModel<HomeViewModel>()
             HomeScreen(
-                navController = appState.navController,
+                navigateToSettings = { appState.navController.navigate(Screen.Settings.route) },
                 viewModel = viewModel
             )
         }
