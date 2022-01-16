@@ -5,5 +5,4 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class OverlayWebViewModel @Inject constructor() : ViewModel() {
-}
+class OverlayWebViewModel @Inject constructor() : ViewModel()

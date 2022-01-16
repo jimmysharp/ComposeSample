@@ -1,16 +1,20 @@
 package com.example.composesample.ui.screens.home
 
-import androidx.compose.material.*
+import androidx.compose.material.DrawerValue
+import androidx.compose.material.Icon
+import androidx.compose.material.IconButton
+import androidx.compose.material.Scaffold
+import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.rememberDrawerState
+import androidx.compose.material.rememberScaffoldState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.navigation.NavController
 import com.example.composesample.ui.components.MainAppBar
 import com.example.composesample.ui.components.MainDrawer
-import com.example.composesample.ui.screens.home.HomeViewModel
 import com.example.composesample.ui.theme.MainTheme
 import kotlinx.coroutines.launch
 
