@@ -110,7 +110,8 @@ fun MainAppBarPreviewWithIcons() {
             navigationIcon = {
                 IconButton(onClick = {}) {
                     Icon(Icons.Default.ArrowBack, contentDescription = "Back")
-                }},
+                }
+            },
             actions = {
                 IconButton(onClick = {}) {
                     Icon(Icons.Default.Settings, contentDescription = "Settings")
